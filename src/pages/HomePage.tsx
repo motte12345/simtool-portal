@@ -48,17 +48,19 @@ export default function HomePage() {
       <JsonLd data={itemListJsonLd} />
 
       <section className="hero">
-        <h1 className="hero__title">
-          暮らしの計算、もっと
-          <span className="accent">カンタン</span>に。
-        </h1>
-        <p className="hero__sub">
-          電気代・引越し・手取り・色・サイズ —
-          個人開発の無料Web計算ツールを集めたポータルです。登録もインストールも不要、ブラウザでそのまま使えます。
-        </p>
-        <a href="#money" className="hero__cta">
-          ツールを見る ↓
-        </a>
+        <div className="hero__inner">
+          <h1 className="hero__title">
+            暮らしの計算、もっと
+            <span className="accent">カンタン</span>に。
+          </h1>
+          <p className="hero__sub">
+            電気代・引越し・手取り・色・サイズ —
+            個人開発の無料Web計算ツールを集めたポータルです。登録もインストールも不要、ブラウザでそのまま使えます。
+          </p>
+          <a href="#money" className="hero__cta">
+            ツールを見る ↓
+          </a>
+        </div>
       </section>
 
       <ToolGrid />
