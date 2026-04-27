@@ -131,6 +131,17 @@ export const TOOLS: Tool[] = [
     emoji: '🌸',
     locale: 'ja+en',
   },
+  {
+    id: 'invoice',
+    title: 'Invoice Generator',
+    description:
+      'プロフェッショナルな請求書をブラウザで作成・PDF出力。登録不要、英語圏向け。',
+    url: 'https://invoice.simtool.dev/',
+    hostname: 'invoice.simtool.dev',
+    category: 'generator',
+    emoji: '🧾',
+    locale: 'en',
+  },
 ]
 
 export const TOOL_COUNT = TOOLS.length

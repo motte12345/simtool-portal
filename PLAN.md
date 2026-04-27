@@ -41,8 +41,9 @@
 | 変換 | 色変換・配色ツール | https://color.simtool.dev |
 | 変換 | 料理単位変換（英語圏） | https://cooking.simtool.dev |
 | ジェネレーター | 和柄パターンジェネレーター | https://wagara.simtool.dev |
+| ジェネレーター | Invoice Generator | https://invoice.simtool.dev |
 
-未掲載（未公開・WIP）: invoice-gen, pdf-tools, og-preview。公開時に追加する。
+未掲載（未公開・WIP）: pdf-tools, og-preview。公開時に追加する。
 
 ## 非ゴール
 - バックエンド・DB は持たない（静的サイト）
